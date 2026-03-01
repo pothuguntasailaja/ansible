@@ -1,0 +1,19 @@
+- name: "sailaja"
+  dob: "03-04-2002"
+  age: 23
+  address: 
+  # object
+  - doorno: 5-112A
+    street: "mainroad"
+    pin: 522603
+    type: perm
+
+  - doorno: 5-112A
+    street: "mainroad"
+    pin: 522603
+    type: current
+  skills:
+  - java
+  - cloud
+  -devops
+  

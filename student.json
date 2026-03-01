@@ -1,0 +1,20 @@
+{
+    "name": "sailaja",
+    "email": "pothuguntasailaja@gmail.com",
+    "age": "21",
+    "address": [
+        {
+            "type": "current",
+            "doorno": "5-112A",
+            "street": "main road",
+            "place": "kandlagunta",
+        },
+        {
+            "type": "perm",
+            "doorno": "5-112A",
+            "street": "main road",
+            "place": "kandlagunta",
+        }
+    ],
+    "skills": ["java", "devops", "cloud"]
+}
