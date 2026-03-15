@@ -11,14 +11,14 @@
       msg: "Course Name is: {{ COURSE }}, Duration: {{ DURATION }}, Trainer: {{ Trainer }}" 
 
 
-- name: play-01
-  hosts: local
-  connection: local 
-  vars:
-    COURSE: DEVOPS WITH AWS
-    DURATION: 10HRS
-    TRAINER: SIVA     
-  tasks:
-  - name: print the course info
-    ansible.builtin.debug:
-      msg: "Course Name is: {{ COURSE }}, duration is: {{ DURATION }}, trainer is: {{ TRAINER }}"
+#- name: play-01
+ # hosts: local
+ # connection: local 
+ # vars:
+ #   COURSE: DEVOPS WITH AWS
+ #   DURATION: 10HRS
+ #   TRAINER: SIVA     
+ # tasks:
+ # - name: print the course info
+ #   ansible.builtin.debug:
+  #    msg: "Course Name is: {{ COURSE }}, duration is: {{ DURATION }}, trainer is: {{ TRAINER }}"
