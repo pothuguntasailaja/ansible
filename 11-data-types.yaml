@@ -7,9 +7,9 @@
     is_live: true #boolean
     # list
     tools: #["linux", "shell", "ansible"]
-     - "linux"
-     - shell
-     - ansible
+      - "linux"
+      - shell
+      - ansible
     concepts: # dictonary or map
       cloud: aws
       cm: ansible
@@ -30,9 +30,9 @@
     is_live: true
 
   tools:
-   - linux
-   - shell
-   - ansible
+    - linux
+    - shell
+    - ansible
 
   concepts:
      cloud: aws
