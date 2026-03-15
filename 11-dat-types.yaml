@@ -20,3 +20,24 @@
 
 #list: []
 #map: {}
+
+- name: dta types
+  hosts: local
+  connection: local
+  vars:
+  Course: "AWS"
+  Duration: 80HRS
+  is_live: true
+
+  tools:
+  - linux
+  - shell
+  - ansible
+
+  concepts:
+     cloud: aws
+     cm: ansible
+  tasks:
+  - name: print course info
+    ansible.builtin.debug:
+      msg: "Course name: {{ Course }}, Duration is: {{ Duration }}, is it live? {{ is_live }}, tools are: {{ tools }}, concepts are: {{ concepts }}"   
