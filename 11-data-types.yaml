@@ -41,3 +41,50 @@
   - name: print course info
     ansible.builtin.debug:
       msg: "Course name: {{ Course }}, Duration is: {{ Duration }}, is it live? {{ is_live }}, tools are: {{ tools }}, concepts are: {{ concepts }}"   
+
+- name: data types
+  hosts: local
+  connection: local
+
+  vars:
+    Course: "Devops with Aws"
+    Duration: 120
+    is_live: true
+
+    tools:
+      - linux
+      - shell
+      - ansible
+
+    concepts:
+      cloud: aws
+      cm: ansible
+
+  tasks:
+    - name: print course info
+      ansible.builtin.debug:
+        msg: "Course name: {{ Course }}, Duration: {{ Duration }}, is it live?: {{ is_live }}, tools are: {{ tools }} concepts are: {{ concepts }}"
+
+
+- name: data types
+  hosts: local
+  connection: local
+
+  vars:
+    Course: "AWS"
+    Duration: 80
+    is_live: true
+
+    tools:
+      - linux
+      - shell
+      - ansible
+
+    concepts:
+      cloud: aws
+      cm: ansible
+
+  tasks:
+    - name: print course info
+      ansible.builtin.debug:
+        msg: "Course name: {{ Course }}, Duration is: {{ Duration }}, is it live? {{ is_live }}, tools are: {{ tools }}, concepts are: {{ concepts }}"
