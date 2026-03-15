@@ -25,7 +25,7 @@
     prompt: what is your password?
     private: true
   tasks:
-  - name: print credentials
+  - name: print details
     ansible.builtin.debug:
     msg: "Hello, username is: {{ username }}, password is: {{ password }}"
 
