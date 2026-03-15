@@ -21,7 +21,7 @@
 #list: []
 #map: {}
 
-- name: dta types
+- name: data types
   hosts: local
   connection: local
   vars:
