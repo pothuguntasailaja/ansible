@@ -4,3 +4,18 @@
   tasks:
   - name: ping
     ansible.builtin.ping: 
+
+
+
+#    - name: PLAY-01
+ #     hosts: frontend
+ #     tasks:
+ #    - name: PLAY-01 and TASK-01
+ #      ansible.builtin.debug:
+ #      msg: "Hello from PLAY-01 and TASK-01"
+
+- name: play-01
+  hosts: frontend
+  tasks:
+  - name: play-01
+    ansible.builtin.debug:
