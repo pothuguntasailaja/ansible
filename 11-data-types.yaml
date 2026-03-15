@@ -25,9 +25,9 @@
   hosts: local
   connection: local
   vars:
-  Course: "AWS"
-  Duration: 80
-  is_live: true
+    Course: "AWS"
+    Duration: 80
+    is_live: true
 
   tools:
   - linux
