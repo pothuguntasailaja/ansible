@@ -26,7 +26,7 @@
   connection: local
   vars:
   Course: "AWS"
-  Duration: 80HRS
+  Duration: 80
   is_live: true
 
   tools:
