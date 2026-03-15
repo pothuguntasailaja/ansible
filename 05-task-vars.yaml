@@ -14,15 +14,15 @@
 
 
 
-- name: play level variables
-  hosts: local
-  connection: local
-  vars:
-    COURSE: DEVOPS
-    TRAINER: SIVA
-    DURATION: 10HRS
-  tasks:
-  - name: print the course info
-    COURSE: DEVSECOPS
-  ansible.builtin.debug:
-    msg: "Course name is {{ COURSE }}, Trainer is: {{ TRAINER }}, Duration is {{ DURATION }}"  
+#- name: play level variables
+#  hosts: local
+#  connection: local
+#  vars:
+#    COURSE: DEVOPS
+#    TRAINER: SIVA
+#    DURATION: 10HRS
+#  tasks:
+#  - name: print the course info
+#    COURSE: DEVSECOPS
+#  ansible.builtin.debug:
+#    msg: "Course name is {{ COURSE }}, Trainer is: {{ TRAINER }}, Duration is {{ DURATION }}"  
