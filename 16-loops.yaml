@@ -13,7 +13,7 @@
     - zip
 
 
-- name: instal packages
+- name: Install packages
    hosts: local
    connection: local
    become: yes
