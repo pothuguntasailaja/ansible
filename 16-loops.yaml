@@ -13,7 +13,7 @@
     - zip
 
 
- - name: instal packages
+- name: instal packages
    hosts: local
    connection: local
    become: yes
@@ -22,7 +22,7 @@
      ansible.builtin.package:
        name: "{{ item }}"
        state: latest
-      loop:
+     loop:
         - nginx
         - zip
         - mysql    
