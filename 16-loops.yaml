@@ -1,6 +1,6 @@
 - name: Install packages
   hosts: local
-  connections: local
+  connection: local
   become: yes
   tasks:
   - name: print names
