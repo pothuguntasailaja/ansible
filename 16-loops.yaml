@@ -11,3 +11,18 @@
     - nginx
     - mysql
     - zip
+
+
+ - name: instal packages
+   hosts: local
+   connection: local
+   become: yes
+   tasks:
+   - name: install packages
+     ansible.builtin.package:
+       name: "{{ item }}"
+       state: latest
+      loop:
+        - nginx
+        - zip
+        - mysql    
