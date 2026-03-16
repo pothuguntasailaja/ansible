@@ -8,6 +8,20 @@
       name: "{{ item.name }}"
       state:  "{{ item.state }}"
     loop:
-    - { name: "nginx", state: "absent"}
-    - { name: "mysql", state: "absent"}
-    - { name: "zip", state: "latest"}
+     - { name: "nginx", state: "absent"}
+     - { name: "mysql", state: "absent"}
+     - { name: "zip", state: "latest"}
+
+
+- name: install and delete packages
+  hosts: local
+  connection: local
+  tasks:
+  - name: install and delete packages
+    ansible.builtin.package:
+       name: "{{ item.name }}"
+       state: "{{ item.state}}"
+    loops:
+      - { name: "nginx", state: "absent"}
+      - { name: "mysql", state: "absent"}
+      - { name: "zip", state: "latest"}       
