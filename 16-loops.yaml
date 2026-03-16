@@ -14,15 +14,15 @@
 
 
 - name: Install packages
-   hosts: local
-   connection: local
-   become: yes
-   tasks:
-   - name: install packages
-     ansible.builtin.package:
+  hosts: local
+  connection: local
+  become: yes
+  tasks:
+  - name: install packages
+    ansible.builtin.package:
        name: "{{ item }}"
        state: latest
-     loop:
+    loop:
         - nginx
         - zip
         - mysql    
