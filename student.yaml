@@ -1,4 +1,4 @@
-
+# for single student it is 
 
 name: "sailaja"
 dob: "03-04-2002"
@@ -19,3 +19,30 @@ skills:
   - java
   - cloud
   - devops    
+
+
+# for multiple students
+
+- name: "sailaja"
+  dob: "03-04-2002"
+  age: 23
+  address:
+    - doorno: 5-112A
+      street: "mainroad"
+      pin: 522603
+      type: perm
+  skills:
+    - java
+    - cloud
+    - devops
+
+- name: "ramesh"
+  dob: "01-01-2000"
+  age: 25
+  address:
+    - doorno: 1-1-1
+      street: "xyz"
+      pin: 500000
+      type: perm
+  skills:
+    - python
