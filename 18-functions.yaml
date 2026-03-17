@@ -5,7 +5,7 @@
     technologies: Devops, Linux, Ansible, shell
     name: SAILAJA
     gmail: info@gmail.com
-    ipaddress: "192.168.0.1"
+    ipaddress: "19222.168.0.1"
     # dictionary == map
     tags:
       Application: payment
