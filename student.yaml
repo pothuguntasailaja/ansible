@@ -12,8 +12,28 @@
     street: "mainroad"
     pin: 522603
     type: current
+
   skills:
-  - java
-  - cloud
-  -devops
+    - java
+    - cloud
+    -devops
   
+- name: "sailaja"
+  dob: "03-04-2002"
+  age: 23
+
+  address:
+    - doorno: 5-112A
+      street: "mainroad"
+      pin: 522603
+      type: perm
+
+    - doorno: 5-112A
+      street: "mainroad"
+      pin: 522603
+      type: current
+
+  skills:
+    - java
+    - cloud
+    - devops
