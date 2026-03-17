@@ -5,8 +5,8 @@
     technologies: Devops, Linux, Ansible, shell
     # dictionary == map
     tags:
-    Application: payment
-    Enviornment: dev
+      Application: payment
+      Enviornment: dev
   tasks:
   - name: default variables
     ansible.builtin.debug:
