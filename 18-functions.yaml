@@ -10,4 +10,4 @@
 
   - name: convert String to list
     ansible.builtin.debug:
-    msg: "technologies ar: {{ technogies | split(',') }}"    
+      msg: "technologies ar: {{ technogies | split(',') }}"    
