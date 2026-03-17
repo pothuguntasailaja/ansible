@@ -5,6 +5,7 @@
     technologies: Devops, Linux, Ansible, shell
     name: SAILAJA
     gmail: info@gmail.com
+    ipaddress: "192.168.0.1"
     # dictionary == map
     tags:
       Application: payment
@@ -56,4 +57,9 @@
 
   - name: convert to upper
     ansible.builtin.debug:
-      msg: "{{ gmail | upper }}"    
+      msg: "{{ gmail | upper }}"  
+
+  - name: check the ipadrress valid or not
+    ansible.builtin.debug:
+      msg: "{{ ipaddress | ansible.utils.ipv4 }}"
+          
