@@ -1,0 +1,15 @@
+- name: "sailaja"
+  dob: "01-1-1"
+  age: 21
+  addresses:
+  - doorno: 7-112
+    street: "mainroad"
+    city: hyd
+    pin: 533653
+    type: current
+
+  - doorno: 7-112
+    street: "mainroad"
+    city: hyd
+    pin: 533653
+    type: perm 
