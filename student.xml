@@ -1,0 +1,28 @@
+<!-- List of objects -->
+<students>
+    <!-- object -->
+    <student>
+        <name>sailaja</name>
+        <dob>3-4-2002</dob>
+        <age>21</age>
+        <!-- list of objects -->
+        <addresses>
+            <address type="PERM">
+                <doorno>5-112A</doorno>
+                <street>mainroad</street>
+                <pincode>522603</pincode>
+            </address>
+            <address type="current">
+                <doorno>5-112A</doorno>
+                <street>mainroad</street>
+                <pincode>522603</pincode>
+            </address>
+        </addresses>
+        <!-- list of objects -->
+        <skills>
+            <skill>java</skill>
+            <skill>python</skill>
+        </skills>
+    </student>
+
+</students>
